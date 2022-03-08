@@ -22,8 +22,8 @@ let wordList = [
   "horse",
 ];
 
-//let randomIndex = Math.floor(Math.random() * wordList.length);
-let secret = wordList[1];
+let randomIndex = Math.floor(Math.random() * wordList.length);
+let secret = wordList[randomIndex];
 
 let currentAttempt = "";
 let history = [];
